@@ -118,5 +118,6 @@ const CLIENT_ID = '906673896011-vrgg9f0ti95c6ctrm4l22s0dkovp0mtj.apps.googleuser
         const output = labels.reduce(
             (str, label) => `${str}${label.name}\n`,
             'Labels:\n');
-        document.getElementById('content').innerText = output;
+        //document.getElementById('content').innerText = output;
+        console.log(output);
     }
