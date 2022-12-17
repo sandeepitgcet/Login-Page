@@ -3,7 +3,7 @@ const userName=document.getElementById("username");
 const password=document.getElementById("pass");
 const remember=document.getElementById("remember");
 const error=document.getElementById("error");
-var ui = new firebaseui.auth.AuthUI(firebase.auth());
+//var ui = new firebaseui.auth.AuthUI(firebase.auth());
 
 userName.addEventListener("keyup",(event)=>{
     error.innerHTML='';
