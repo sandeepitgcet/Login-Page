@@ -53,8 +53,3 @@ input[type='checkbox']::after{
     border: none;
     color:white;
 }
-
-.data {
-    display: none;
-}
-
