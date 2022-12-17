@@ -105,7 +105,8 @@ const CLIENT_ID = '906673896011-vrgg9f0ti95c6ctrm4l22s0dkovp0mtj.apps.googleuser
             'userId': 'me',
           });
         } catch (err) {
-          document.getElementById('content').innerText = err.message;
+          //document.getElementById('content').innerText = err.message;
+          alert(err.message);
           return;
         }
         const labels = response.result.labels;
